@@ -9,16 +9,16 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-two', function (req, res) {
+app.get('ui/article-two', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
 });
 
-app.get('/firstpage', function (req, res) {
+app.get('ui/firstpage', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'firstpage.html'));
 });
 
 
-app.get('/thirdpage', function (req, res) {
+app.get('ui/thirdpage', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'thirdpage.html'));
 });
 
