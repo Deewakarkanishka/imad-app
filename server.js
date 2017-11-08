@@ -22,8 +22,8 @@ app.get('/thirdpage', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'thirdpage.html'));
 });
 
-app.get('/registration', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'registration.html'));
+app.get('/registeration', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'registeration.html'));
 });
 
 
